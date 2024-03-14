@@ -67,7 +67,7 @@ body{
     position: relative;
     width: 80%;
     color: aliceblue;
-    background-image: url(fundo\ texto.png);
+    background-image: linear-gradient(to bottom, #011526,#012340,#054BA6 );
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgb(30, 84, 202);
     
