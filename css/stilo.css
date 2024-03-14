@@ -30,13 +30,12 @@ body{
         
     
  @keyframes move{
-    from {left: 100px;}
+    from {left: 90px;}
     to {left: 20px}}
     #text {position:relative;
          animation: move 4s alternate-reverse;
-         left: 100px; 
-         min-width: 300px;
-         max-width: 900px;
+         left: 90px; 
+         
          
     }
 
