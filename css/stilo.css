@@ -5,6 +5,7 @@ header{
     background-color: rgba(62, 132, 140);
 }
 #foto {
+    width: 50%;
     margin: auto;
     max-width: 1000px;
     min-width: 280px;
@@ -30,11 +31,11 @@ body{
         
     
  @keyframes move{
-    from {left: 90px;}
+    from {left: 70px;}
     to {left: 20px}}
     #text {position:relative;
          animation: move 4s alternate-reverse;
-         left: 90px; 
+         left: 70px; 
          
          
     }
