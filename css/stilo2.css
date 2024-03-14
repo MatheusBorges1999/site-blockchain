@@ -1,0 +1,94 @@
+
+#titulo{
+    box-shadow: 3px 3px 3px black;
+    padding-top: 10px;
+    display: block;
+    margin: auto;
+    max-width: 1050px;
+    min-width: 190px;
+    
+}
+
+#botao{
+    box-shadow: 5px 5px 5px black;
+    padding-top: 20px;
+    min-height: 100px;
+    position: relative;
+    background-image: linear-gradient(to bottom, #011526,#012340,#054BA6 );
+    
+    
+
+
+}
+.voltar{
+    box-shadow: 2px 2px 2px black;
+    margin: auto;
+    display: block;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor:grab;
+    border: solid rgb(13, 14, 13);
+    border-radius: 10px;
+    
+    
+    
+}
+.voltar:hover{
+
+   transition-duration: 1s;
+   transform: scale(0.9);
+   background-color:#0455BF ;
+}
+body{
+    background-attachment:fixed;
+    margin: auto;
+    position: relative;
+    font-size: 25px;
+    font-family: arial, 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    background-image: linear-gradient(to top, #011526 ,#012340 ,#054BA6 );
+    
+}
+main{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 20px;
+    line-height: 50px;
+    min-width: 190px;
+    max-width: 1100px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+body h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+font-family: 'https://fonts.googleapis.com/css2?family=Madimi+One&display=swap';
+text-align: center;
+font-weight: bolder;
+box-shadow: 2px, 2px, 2px black;
+
+
+
+
+}
+body h2{
+    font-family: 'https://fonts.googleapis.com/css2?family=Madimi+One&display=swap';
+    text-align: center;
+
+}
+body ul{
+    margin-right: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+img{
+
+    margin: auto;
+    display: block;
+    max-width: 1050px;
+    min-width: 190px;
+}
+
+

@@ -1,0 +1,149 @@
+header{
+    margin: auto;
+    min-width: 10px;
+    min-height: 120px;
+    background-color: rgba(62, 132, 140);
+}
+#foto {
+    margin: auto;
+    max-width: 1000px;
+    min-width: 280px;
+    display: block;
+    border-style: solid;
+    border-radius: 17px;
+    border-color: aqua;
+   
+}
+body{
+    width: 100%;
+    margin: auto;
+    min-width: 280px;
+    max-width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    color: rgb(10, 10, 10);
+        
+    }
+    
+    
+        
+    
+ @keyframes move{
+    from {left: 100px;}
+    to {left: 20px}}
+    #text {position:relative;
+         animation: move 4s alternate-reverse;
+         left: 100px; 
+         min-width: 300px;
+         max-width: 900px;
+         
+    }
+
+ #clip{
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 20px;
+        
+}
+
+    
+
+
+#texto2{
+    min-width: 300px;
+    max-width: 900px;
+    display: block;
+    margin:auto;
+    bottom: 100px;
+    text-align: justify;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+    color: aliceblue;
+    background-image: url(fundo\ texto.png);
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgb(30, 84, 202);
+    
+    }
+    
+
+
+
+#menu{
+    display: inline-block;
+    color: aliceblue;
+    list-style: none;
+    position: relative;
+ 
+    
+    
+}
+#menu:hover li{
+    transition:linear 0.7s, 0.7s, 0.7s;
+    transform: scale(1.2);
+    background-color: rgb(122, 184, 191);
+    color: rgb(248, 246, 246);
+
+   
+    
+}
+#menu a{
+    text-decoration: none;
+    color: rgb(243, 239, 239);
+    list-style: none;
+}
+
+
+#menu li{
+    margin-block: 20px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 10px;
+    border: solid 2px;
+    width: 300px;
+    
+}
+
+#menu ul{
+background-color: aliceblue;
+    min-width: 280px;
+    max-width: 1000px;
+}
+
+main{
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow:10px 10px 10px black ;
+    background-color: rgb(238, 231, 231);
+
+}
+#info{
+    display: block;
+    width: 80%;
+padding: 20px;
+max-width: 1000px;
+min-width: 300px;
+}
+#text{
+    padding-right: 10px;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+    min-width: 300px;
+}
+
+
+
+
+
+
+    
+
+    
