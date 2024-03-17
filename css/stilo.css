@@ -2,7 +2,7 @@ header{
     margin: auto;
     min-width: 10px;
     min-height: 120px;
-    background-color: rgba(62, 132, 140);
+    background-image: linear-gradient(to bottom,#9AAFD9,#CEDEF2,#0367A6 60%);
 }
 #foto {
     width: 50%;
@@ -12,7 +12,7 @@ header{
     display: block;
     border-style: solid;
     border-radius: 17px;
-    border-color: aqua;
+    border-color: rgb(12, 12, 12);
    
 }
 body{
@@ -67,7 +67,7 @@ body{
     position: relative;
     width: 80%;
     color: aliceblue;
-    background-image: linear-gradient(to bottom, #011526,#012340,#054BA6 );
+    background-image: linear-gradient(to bottom, #011526,#012340,#054BA6 60% );
     border-radius: 5px;
     box-shadow: 10px 10px 10px rgb(30, 84, 202);
     
@@ -88,7 +88,7 @@ body{
 #menu:hover li{
     transition:linear 0.7s, 0.7s, 0.7s;
     transform: scale(1.2);
-    background-color: rgb(122, 184, 191);
+    background-image: linear-gradient(to bottom,#9AAFD9,#0367A6);
     color: rgb(248, 246, 246);
 
    

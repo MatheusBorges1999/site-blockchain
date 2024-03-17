@@ -1,39 +1,56 @@
-#navegacao{
-    background-image: url(istockphoto-1307537947-1024x1024.jpg);
-    height: 100px;
-    border-radius: 100px;
-    background-attachment: scroll;
+:root{
+    --cor1: #172540; 
+    --cor2:#294273;
+    --cor3:#385DA6;
+    --cor4:#5C8EF2;
+    --cor5:#6BB3F2;
+
+}
+nav{
+    box-shadow: 0px 0px 10px 10px var(--cor4);
+    border-radius: 0px 0px 20px 20px;
+    padding-top: 90px;
+    width:calc(100% - 0px);
+    position:absolute;
+
+    background-image:linear-gradient(to bottom, var(--cor1), var(--cor2));
+    
+    
+    
 
 
 }
 .botao{
+    
+     position: relative;
+     bottom: 10mm;
+     display: block;
+     margin: 0 auto;
     font-style: italic;
-    position: relative;
-    font-size: 30px;
-    margin-left: 610px;
-    top:9mm;
+    font-size: 50px;
     transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
-    background-color: rgb(52, 150, 196);
+    background-color:linear-gradient(to bottom, var(--cor3), var(--cor4));
     border-radius: 10px;
     border: solid 2px rgb(0, 0, 0);   
 }
 .botao:hover{
-    background-color: rgb(231, 193, 191);
+    text-decoration: underline;
+    background-color:var(--cor3);
     color: rgb(4, 5, 5);
     transform: scale(1.2);
 }
 .tabela{
-    border: solid 10px rgb(52, 150, 196);
-    margin-left: 450px;
-    margin-top: 100px;
-    width: 500px;
-    height: 500px;
-    background-color: #c5edff;
+    display: inline-table;
+    height: 400px;
+    width: 100%;
+    padding: auto;
+    margin: auto;
+    border: solid 5px var(--cor1);
+    background-color: #eeeff0;
     box-shadow: 20px 20px 20px black;
 }
 #texto{
-    position: absolute;
-    left: 600px;
+text-align: left;
     border: solid black;
     border-radius: 5px;
 }
@@ -46,8 +63,33 @@
     font-size: 40px;
 }
 body{
+    max-width: 1300px;
+    min-width: 270px;
     margin: auto;
-    background-attachment: fixed;
-    background-image: radial-gradient(rgb(114, 142, 198), rgb(40, 85, 198), rgb(19, 65, 134),rgb(72, 94, 147), blue, blue );
+    
+    
 }
+
+
+form{
+   padding-top: 200px; 
+   display: block;
+   margin: auto;
+   max-width: 1100px;
+   min-width: 300px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+    
+
+
+
+
+    
+
+
 
